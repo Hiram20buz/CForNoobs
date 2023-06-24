@@ -6,6 +6,10 @@ To compile the program:
 
 gcc file.c
 
+gcc helloWorld.c -o helloWorld
+
 To Run the program:
 
 ./a.out
+
+./helloWorld
