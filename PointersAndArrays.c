@@ -1,3 +1,10 @@
+/*
+An important concept with arrays is that an array name acts as a pointer to the first element of the array. Therefore, the statement ptr = a can be thought of as ptr = &a[0].
+
+Consider the following statement, which prints the first element of the array: printf("%d ", *a);
+
+
+*/
 #include <stdio.h>
 
 int main() {
